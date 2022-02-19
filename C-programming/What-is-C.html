@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/nav-c and Footer.css">
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/mobile-style.css">
+    <link rel="stylesheet" href="../css/prism.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../src/Index.html">
+                    <i class="fas fa-code fa-2x mx-2"></i>
+                    Coding with Samyak</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-right text-light"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../src/Index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../src/Cprogramming.html">C- Programming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Arduino Programming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../src/About.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="background">
+
+            
+
+
+            <section class="section1">
+
+                <div class="container-flex">
+    
+                    <div class="title">
+                        <h1>Hello World</h1>
+                    </div>
+
+                    <div class="content">
+                        <p>Table of Contents</p>
+                        1. <a href="#Hello">Hello World</a> <br>
+                        2. <a href="#howtowrite">How to Write ?</a> <br>
+                        3. <a href="#code">Code</a>
+
+
+                    </div>
+            
+                    <div class="title-tag">
+                        <p>Today you will be learning many new things regarding C - Programming <br><br> Lets start with the
+                            basics..... <br><br> </p>
+                    </div>
+    
+                    <div class="content">
+                        <h2 id="Hello">Hello World</h2>
+                        <p>C - Programming is one of the oldest languages thats been used everywhere in the world. You can
+                            say, thats its the grandfather of all programming langauges. <br></p>
+                        <p>Starting with the basics, you should know what each code we write in a c-program means. So we
+                            will be using a example of Hello World, as thats the most basic c program code that anyone could
+                            write with very little knowledge.</p>
+                    </div>
+    
+                </div>
+    
+    
+                <div class="coding-content">
+    
+                    <pre>
+                        <code class="language-c line-numbers">
+                            #include &lt;stdio.h&gt;
+                            int main()
+                            {
+                                printf("Hello World!!");
+                            }
+                        </code>
+                    </pre>
+    
+                </div>
+    
+                <div class="container-flex">
+    
+                    <div class="content">
+                        <p>Here, you are seeing the basic code of Hello World. <br> Lets see how can we write this code.
+                            <br></p>
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            <hr><br>
+                            <h2 id="howtowrite">How to write ?</h2>
+                            In every C-Program, we need to deploy some libraries or header files.
+                            <br> These "Libraries" have many functions build into it.
+                            <br>
+                            <hr> <mark>stdio.h</mark> is a header file that contains many of the important basic functions,
+                            that we will need to do the input and output in the program.
+                        </p>
+                        <br>
+    
+                        <div class="container-info">
+                            <div class="note">
+                                <p class="note-title"> <i class="fas fa-info-circle color"></i> Note</p>
+                                <p class="note-content"><mark>printf</mark> and <mark>scanf</mark> are the basic functions
+                                    of Input and Output.</p>
+                            </div>
+                        </div>
+    
+                        <p>
+                            <br><br>So to use this library in a C program we need to use the following function called <code
+                                class="language-c">#include</code>
+                            <br>We can use <code class="language-c">#include</code> to insert any header file that we want.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="coding-content">
+    
+                    <pre class="line-numbers" data-start="1">
+                        <code class="language-c">
+                            #include &lt;stdio.h&gt;
+                        </code>
+                    </pre>
+    
+                </div>
+    
+                <div class="container-flex content">
+    
+                    <hr>
+                    <p>The next part would be the main section. Here we write our main program.</p>
+    
+                </div>
+    
+                <div class="coding-content">
+                    <pre class="line-numbers" data-start="2">
+                        <code class="language-c">
+                            int main()
+                            {
+                                
+                            }
+                        </code>
+                    </pre>
+                </div>
+    
+                <div class="container-flex content">
+    
+                    <p>The main program is written inside this curly bracket {}</p>
+                    <hr>
+    
+                </div>
+
+                <div class="container-flex content">
+                    <p><mark>printf ()</mark> is a command in which we can write anything in the brackets and it will print it for us.</p>
+                    <p>For example: <code>printf("Hello World!");</code></p>
+                    <p>This will print a the string "Hello World" in the console</p>
+
+                    <hr>
+                </div>
+
+                
+                <div class="container-flex content">
+
+                    <h2 id="code">Code: </h2>
+                    <p>Try to compile the code below and execute it</p>
+                    <div class="parent">
+                        <iframe src="https://www.jdoodle.com/embed/v0/4mLb"></iframe>
+                    </div>
+                </div>
+
+                <div class="container-flex content">
+                    <hr><br>
+                    <h2>Conclusion</h2>
+                    <p>Hence we learned how to write the basic code in C-Programming.</p>
+                </div>
+
+            </section>
+
+            
+    
+            
+    
+        </div>
+
+    </main>
+        
+
+    <footer>
+        <div class="container-fluid p-0">
+            <div class="row text-center">
+                <div>
+
+                    <h4 class="text-light">Follow Us</h4>
+                    <p class="text-muted">Let us be Social</p>
+                    <div class="column justify-content-center">
+                        <a href="https://www.linkedin.com/in/samyak-jain-3a6639172/" class="fab fa-linkedin fa-2x"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+
+    <script src="../Javascripts/prism.js"></script>
+
+
+</body>
+
+</html>

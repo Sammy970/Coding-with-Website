@@ -1,0 +1,243 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,
+            #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.7);
+}
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 1.2em;
+    color: whitesmoke;
+
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+
+}
+
+header .nav-item a {
+    color: whitesmoke;
+
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .navbar-brand:hover {
+    color: black;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 15vmin 1vmin;
+    padding-bottom: 13vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+
+header .col-md-5 img {
+    width: 90%;
+}
+
+header .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/************************************* Common for every Heading, Paragraph ***************************/
+
+/* .head {
+    font-family: var(--Patua);
+}
+
+.para {
+    font-family: var(--Rubik);
+} */
+
+
+/************************************* Section 1 *************************************/
+
+.section-1 {
+    margin-top: 40px;
+}
+
+.section-1 .content h1 {
+    font-family: var(--Patua);
+}
+
+.section-1 .icons .rect {
+    text-align: center;
+    align-content: center;
+}
+
+.section-1 .container {
+    margin-top: 40px;
+}
+
+
+.icons .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.2);
+}
+
+.icons {
+    margin-top: -1rem;
+}
+
+.icons .rect p {
+    font-size: 1.5rem;
+    font-family: var(--Rubik);
+    font-weight: bold;
+    margin-top: 10px;
+    color: tomato;
+}
+
+.getstarted h1 {
+    padding-top: 7vmin;
+    padding-bottom: 5vmin;
+    font-family: var(--Lobster);
+}
+
+.getstarted .cards .card {
+    width: 22rem;
+    height: 12rem;
+    margin: 3vmin;
+    border-radius: 20px;
+
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+    background: rgb(208, 241, 241, 0.11)
+}
+
+.getstarted .card {
+    background-color: tomato;
+}
+
+.getstarted .card-title {
+    padding-top: 2.5rem;
+    font-family: var(--Rubik);
+    font-size: 2rem;
+    padding-bottom: 2vmin;
+
+}
+
+.getstarted .btn {
+    border-radius: 20px;
+    color: white;
+    margin-top: 1.3rem;
+}
+
+
+/************************************* Section 2 *************************************/
+
+
+.Section-2 .container {
+    margin-top: 5vmin;
+}
+
+.Section-2 .owner {
+    margin-top: 5vmin;
+    margin-bottom: 50px;
+}
+
+.Section-2 .card {
+    border-radius: 20px;
+}
+
+.Section-2 .card-img-top {
+    border-radius: 150px;
+    height: 259px;
+}
+
+.Section-2 .card-title {
+    font-family: var(--Patua);
+    font-size: 28px;
+}
+
+.Section-2 .card-text {
+    font-family: var(--Rubik);
+    margin-top: 2rem;
+    font-size: 18px;
+    margin-bottom: -1rem;
+}
+
+
+/************************************* Footer *************************************/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 10vmin 13vmin;
+}
+
+footer .column i {
+    color: #dd2476;
+
+}
+
+footer .column i+i {
+    padding: 0 1rem;
+}

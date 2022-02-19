@@ -1,0 +1,146 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,
+            #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.7);
+}
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 1.2em;
+    color: whitesmoke;
+
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+
+}
+
+header .nav-item a {
+    color: whitesmoke;
+
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .navbar-brand:hover {
+    color: black;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 15vmin 1vmin;
+    padding-bottom: 13vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+
+header .col-md-5 img {
+    width: 90%;
+}
+
+header .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* About Section */
+
+.section-1 .row {
+    margin-left: 12vmin;
+    margin-top: 5vmin;
+    justify-content: center;
+}
+
+
+.section-1 .col-md-5 {
+    padding-left: 10vmin;
+    margin: auto;
+}
+
+.section-1 .head {
+    font-family: var(--Patua);
+    font-size: 9vmin;
+}
+
+.section-1 .para {
+    padding-top: 1vmin;
+    font-family: var(--Rubik);
+    font-size: 3vmin;
+}
+
+.section-1 .img {
+    padding-left: 3vmin;
+    width: 70%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 3vmin;
+}
+
+
+/************************************* Footer *************************************/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 5vmin 13vmin;
+}
+
+footer .column i {
+    color: #dd2476;
+
+}
+
+footer .column i+i {
+    padding: 0 1rem;
+}

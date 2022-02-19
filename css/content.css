@@ -1,0 +1,121 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,
+            #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.7);
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Section 1 */
+
+.section1 .title {
+    margin-top: 20px;
+    font-family: var(--Patua);
+}
+
+.section1 .container-flex {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.section1 .title h1 {
+    font-family: var(--Patua);
+    font-size: 7vmin;
+    text-align: center;
+    padding: 2vmin;
+}
+
+.section1 .title-tag p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    font-weight: bold;
+
+}
+
+.section1 .content {
+    font-family: var(--Rubik);
+    font-size: 2.5vmin;
+    color: var(--light-black);
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section1 .content h2 {
+    font-family: var(--Rubik);
+    color: black;
+    font-weight: bold;
+    margin-top: -3vmin;
+
+}
+
+/* Notes */
+
+.note {
+    padding: 0 .6rem .8rem !important;
+    overflow: hidden;
+    border-radius: 3px;
+    page-break-inside: avoid;
+    border-left: .3rem solid #007bff;
+}
+
+.container-info {
+    border-radius: 10px;
+}
+
+.color {
+    color: #007bff;
+}
+
+
+.note .note-title {
+    background-color: #e7f2fa;
+    padding: 10px;
+    margin-left: -10px;
+    font-weight: bold;
+    font-size: 3vmin;
+}
+
+.note .note-content {
+    font-size: 20px;
+}
+
+
+/* Iframe Coding Jdoodle Content */
+
+.parent {
+    display: flex;
+    justify-content: center
+}
+
+.parent iframe {
+    width: 800px;
+    height: 400px;
+}
+
+
+/* Using Cards to display various tutorials in 1 page */
+
+.card {
+    display: inline-block;
+}

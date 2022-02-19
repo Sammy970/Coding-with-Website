@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .icons .rect {
+        width: 13rem;
+        height: 11rem;
+    }
+
+    .icons .rect p {
+        font-size: 3vmin;
+    }
+
+    .getstarted {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-2 .col-md-4 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    header .navbar-brand {
+        padding: 0rem;
+        font-size: 1rem;
+    }
+
+    .section-1 .icons .rect {
+        width: 13rem;
+        height: 9rem;
+    }
+
+    .section-1 .rect img {
+        margin-top: -2px;
+    }
+
+    .section-1 .rect p {
+        margin-top: -2px;
+        font-size: 15px;
+    }
+}

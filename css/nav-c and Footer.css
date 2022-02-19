@@ -1,0 +1,94 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,
+            #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.7);
+}
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 1.2em;
+    color: whitesmoke;
+
+}
+
+header {
+    background: #dd2476;
+    background: rgb(34, 34, 34);
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+
+}
+
+header .nav-item a {
+    color: whitesmoke;
+
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .navbar-brand:hover {
+    color: black;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+
+
+/* Footer */
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 5vmin 13vmin;
+}
+
+footer .column i {
+    color: #222122;
+
+}
+
+footer .column i+i {
+    padding: 0 1rem;
+}
+
+
+
+.coding-content {
+
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+
+mark {
+    background: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
